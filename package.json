@@ -1,0 +1,16 @@
+{
+  "name": "fxa-metrics-demo",
+  "version": "0.0.0"
+  "scripts": {
+    "data": "scripts/generateData.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "elasticsearch": "1.0.3"
+  },
+  "devDependencies": {
+    "awsbox": "0.6.2"
+  }
+}

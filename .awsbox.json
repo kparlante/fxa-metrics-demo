@@ -1,0 +1,9 @@
+{
+  "processes":[],
+  "env":{
+    "CONFIG_FILES": "$HOME/code/config.json,$HOME/config.json"
+  },
+  "hooks":{
+    "postcreate": "scripts/aws_post_create.sh"
+  }
+}
